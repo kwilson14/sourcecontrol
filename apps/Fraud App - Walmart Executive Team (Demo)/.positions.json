@@ -9,6 +9,12 @@
     "height": 1,
     "width": 2
   },
+  "button3": {
+    "row": 22,
+    "col": 2,
+    "height": 1,
+    "width": 2
+  },
   "chart1": {
     "row": 14.2,
     "height": 7,
