@@ -15,6 +15,28 @@
       labelPosition="top"
       placeholder="Search"
     />
+    <DateRange
+      id="dateRange1"
+      dateFormat="MMM dd, yyyy"
+      endPlaceholder="End date"
+      iconBefore="bold/interface-calendar-remove"
+      label="Date Filter"
+      labelCaption="Filter the table results by date"
+      labelPosition="top"
+      startPlaceholder="Start date"
+      textBetween="-"
+      value={{ ordered: [{ start: "" }, { end: "" }] }}
+    >
+      <Event
+        event="change"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="getFraud"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </DateRange>
     <Select
       id="select1"
       captionByIndex=""
@@ -41,28 +63,6 @@
         waitType="debounce"
       />
     </Select>
-    <DateRange
-      id="dateRange1"
-      dateFormat="MMM dd, yyyy"
-      endPlaceholder="End date"
-      iconBefore="bold/interface-calendar-remove"
-      label="Date Filter"
-      labelCaption="Filter the table results by date"
-      labelPosition="top"
-      startPlaceholder="Start date"
-      textBetween="-"
-      value={{ ordered: [{ start: "" }, { end: "" }] }}
-    >
-      <Event
-        event="change"
-        method="trigger"
-        params={{ ordered: [] }}
-        pluginId="getFraud"
-        type="datasource"
-        waitMs="0"
-        waitType="debounce"
-      />
-    </DateRange>
     <Table
       id="table1"
       cellSelection="none"
@@ -398,5 +398,6 @@
       xAxisType="category"
       yAxisTitle="$ Damage"
     />
+    <Button id="button1" text="Button" />
   </Frame>
 </App>
