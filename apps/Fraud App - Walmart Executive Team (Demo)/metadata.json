@@ -1,0 +1,58 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "3220a362-76bd-11ef-9f60-0fec1bcffe9c",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "getTable": {
+          "array": []
+        },
+        "getTransactionsTable": {
+          "array": []
+        },
+        "getFraud": {
+          "array": []
+        },
+        "countFraud": {
+          "array": []
+        },
+        "fraudDamage": {
+          "array": []
+        },
+        "markFraud": {
+          "array": []
+        },
+        "getGraph": {
+          "array": []
+        },
+        "isFraudSaveHandler": {
+          "array": []
+        },
+        "updateFraud": {
+          "array": []
+        },
+        "wipupdateFraud": {
+          "array": []
+        },
+        "secondaryValueFraudCount": {
+          "array": []
+        },
+        "secValueDamage": {
+          "array": []
+        },
+        "secValueFraudCount": {
+          "array": []
+        },
+        "datePicker": {
+          "array": []
+        },
+        "getStoreLocation": {
+          "array": []
+        }
+      }
+    },
+    "version": "3.110.0",
+    "experimentalDataTabEnabled": true
+  }
+}
