@@ -1,4 +1,9 @@
 {
+  "button1": {
+    "row": 22,
+    "height": 1,
+    "width": 2
+  },
   "chart1": {
     "row": 14.2,
     "height": 7,
