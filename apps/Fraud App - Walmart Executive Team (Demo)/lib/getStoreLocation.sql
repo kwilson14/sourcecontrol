@@ -1,0 +1,1 @@
+SELECT DISTINCT store_location from walmart_nj_fraud_updated
