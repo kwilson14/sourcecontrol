@@ -21,6 +21,11 @@
     "height": 1,
     "width": 2
   },
+  "button5": {
+    "row": 24.8,
+    "height": 1,
+    "width": 2
+  },
   "chart1": {
     "row": 14.2,
     "height": 7,
